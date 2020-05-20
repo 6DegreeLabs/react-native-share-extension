@@ -194,7 +194,7 @@ public static boolean isMiracleFile(Uri uri) {
 
     //final File file = File.createTempFile("image", null, context.getCacheDir());
     File extDir = context.getCacheDir();
-    final String file = extDir.getAbsolutePath() + "/imagecache/IMG_" + UUID.randomUUID().toString() + ".jpg";
+    final String file = extDir.getAbsolutePath() + "/IMG_" + UUID.randomUUID().toString() + ".jpg";
     final FileOutputStream fileOutputStream;
     try {
         fileOutputStream = new FileOutputStream(file);
