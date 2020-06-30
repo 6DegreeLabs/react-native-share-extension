@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "react-native-share-extension"
-  s.version      = "2.0.1"
+  s.version      = "2.0.2"
   s.summary      = "-"
 
   s.homepage     = "https://github.com/6DegreeLabs/react-native-share-extension"
